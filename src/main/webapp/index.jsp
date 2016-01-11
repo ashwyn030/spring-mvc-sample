@@ -1,11 +1,13 @@
 <html>
 <body>
-<h2>Hello World!</h2>
-   <center>  
-        <h2>Let's go the Home Page</h2>  
-        <h4>  
-           <a href="Home.htm">Login</a>
-        </h4>  
-    </center>  
+	<div style="background-color: black; color: white; padding: 20px;">
+		<form>
+			<input type="text" name="username"> <br> 
+			<input type="text" name="password"> <br>
+			<h6>Forgot Password ?</h6> <br>
+			<button type="button" onsubmit="{Home.htm}">Log In</button>
+		</form>
+
+	</div>
 </body>
 </html>

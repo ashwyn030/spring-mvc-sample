@@ -5,5 +5,6 @@
 	   					   http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="messageService" class="com.dev.service.MessageService"/>
+    <bean id="authenticationService" class="com.dev.service.AuthenticationService"></bean>
 </beans>
 

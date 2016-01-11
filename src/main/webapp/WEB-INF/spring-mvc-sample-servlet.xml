@@ -17,11 +17,15 @@
 		</property>
 	</bean>
 
+	<bean id="authController" class="com.dev.controller.AuthenticationController">
+		<property name="authenticationService" ref="authenticationService" />
+		<property name="homeController" ref="homeController"/>
+	</bean>
+
 	<bean id="homeController" class="com.dev.controller.HomeController">
 		<property name="messageService" ref="messageService" />
-
-
 	</bean>
+
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix">
