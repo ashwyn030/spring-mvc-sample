@@ -7,4 +7,4 @@ Add following entry to D:\installations\apache-maven-3.0.4\conf\settings.xml
     </server>  
 Add following entry to D:\installations\apache-tomcat-6.0.35\conf\tomcat-users.xml
 <role rolename="manager-script"/>
-<user username="script" password="script" roles="manager-script"/>	      
+<user username="script" password="script" roles="manager-script"/>	     
